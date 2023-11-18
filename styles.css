@@ -1,0 +1,159 @@
+/* Basic reset and body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px; /* Spacing at the bottom */
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #1e90ff;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px; /* Spacing at the top */
+}
+
+/* Iframe styles */
+iframe {
+  display: block;
+  width: 100%;
+  height: 800px;
+  border: none; /* Remove iframe border */
+  margin-bottom: 20px; /* Spacing at the bottom */
+}
+body {
+  body {
+    background-image: url('images/background.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+}
+
+/* Styles for the logo container */
+.logo-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 200px; /* Set a height for the container */
+}
+
+/* Styles for the logo image */
+.logo-container img {
+  max-width: 100%; /* Ensure the logo doesn't exceed its container */
+  max-height: 100%; /* Ensure the logo doesn't exceed its container */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+input[type="submit"] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000; /* Button color */
+  color: white;
+  cursor: pointer;
+}
+/* Footer styles */
+footer {
+  background-color: #070303; /* White footer background */
+  text-align: center;
+  padding: 20px;
+}
+.social-icons img {
+  width: 30px; /* Adjust social icon size */
+  height: 30px;
+  margin: 0 10px;
+}
+
+/* Basic reset and body styles */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #000000;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 10px;
+}

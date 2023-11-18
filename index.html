@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Appointment Scheduling</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <body>
+      <header>
+        <header>
+            <img src="images/Hey Hair Lover Logo.jpg" alt="Hey Lover Hair Logo">
+          <h1>Welcome to Hey Hair Lover</h1>
+     
+      <H1 style="font-size: medium;">Thank you for supporting my business and choosing me as your Hairstylist, Please review the text below to ensure a smooth booking process.
+      </H1>
+    </div>
+  </header>
+  <main>
+    </form>
+  </form>
+    
+  <!-- Business Policies Section -->
+  <div id="policies">
+    <h2>Business Policies</h2>
+    <p><strong>Turnover Time:</strong> Turnover for wig laundry is 2-4 days.</p>
+    <p><strong>Appointments:</strong> Appointments are subject to availability.</p>
+    <p><strong>Pre-Appointment Requirements:</strong> Wig(s) need to be washed and fully customized prior to the appointment. Customization is optional, but washing is necessary for optimum results.</p>
+    <p><strong>Terms and Conditions:</strong> All terms and conditions must be read and understood. If there's a need for clarity, feel free to ask for it.</p>
+  </div>
+
+  <style>
+    /* Style for price list */
+    .price-list {
+        margin-top: 20px;
+    }
+
+    .price-list table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .price-list th, .price-list td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .price-list th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+<!-- Price List Section -->
+<div class="price-list">
+    <h2>Price List</h2>
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Full Customisation</td>
+            <td>R200</td>
+        </tr>
+        <tr>
+            <td>Hair Installation</td>
+            <td>R250</td>
+        </tr>
+        <tr>
+            <td>Wig Wash</td>
+            <td>R100</td>
+        </tr>
+        <tr>
+          <td>Wig Lines</td>
+          <td>R80</td>
+      </tr>
+      <tr>
+        <td>Basic Styling</td>
+        <td>R70</td>
+    </tr>
+        <!-- Add more services and prices -->
+    </table>
+</div>
+<h2 style="text-align: center;">Book Your Appointment Today! </h2>
+    <form id="appointmentForm" style="text-align: center;">
+
+    <form action="/submit-appointment" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required><br>
+        
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required><br>
+        
+  
+        <select id="service" name="service" required>
+            <option value="Full Customisation">Full Customisation</option>
+
+            <option value="Hair Installation">Hair Installation</option>
+
+            <option value="Wig Wash">Wig Wash</option>
+
+            <option value="Wig Lines">Wig Lines</option>
+
+            <option value="Basic Hairstyling">Basic Hairstyling</option>
+          </select>
+          <!-- Add more service options -->
+        </select><br>
+        <h2 style="text-align: center;"book appointment></h2>
+        <input type="submit" value="Book Appointment">
+      </form>
+      
+    <!-- Within your confirmation message section -->
+<div id="confirmationMessage" style="display: none;">
+    <p>Thank you for booking your appointment! We'll contact you shortly.</p>
+    <p>For any urgent inquiries or changes, please <a href="https://wa.me/your_whatsapp_number">message us on WhatsApp</a>.</p>
+  </div>
+  
+  </main>
+  <footer>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/_anele.sangweni"><img src="images/Instagram icon.jpg" alt="Instagram"></a>
+        <a href="https://wa.me/27609537357"><img src="images/Whatsapp icon.jpg" alt="WhatsApp"></a>
+    </div>
+    <p>© 2023 Hey Hair Lover | Contact: +27 67 879 5197</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body> 
+</html>
